@@ -22,12 +22,7 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-    <v-app-bar
-      fixed
-      app
-    >
-      <v-toolbar-title>{{ title }}</v-toolbar-title>
-    </v-app-bar>
+
     <v-main>
       <v-container>
         <Nuxt />
@@ -75,8 +70,7 @@ export default {
           title: 'App',
           to: '/'
         }
-      ],
-      title: 'Cashier Nuxt'
+      ]
     }
   }
 }
