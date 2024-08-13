@@ -5,6 +5,8 @@ export default {
   server: {
     port: 8080
   },
+  // mematikan ssr
+  ssr: false,
 
   head: {
     titleTemplate: '%s - cashier-project-nuxt',
